@@ -36,7 +36,7 @@ export default function UserList() {
               size="sm"
               fontSize="sm"
               colorScheme="pink"
-              leftIcon={<Icon as={RiAddLine} />}
+              leftIcon={<Icon as={RiAddLine} fontSize="20" />}
             >
               Criar novo
             </Button>
@@ -50,6 +50,7 @@ export default function UserList() {
                 </Th>
                 <Th>Usuário</Th>
                 <Th>Data de cadastro</Th>
+                <Th width="8"></Th>
               </Tr>
             </Thead>
             <Tbody>
@@ -71,8 +72,58 @@ export default function UserList() {
                     as="a"
                     size="sm"
                     fontSize="sm"
-                    colorScheme="pink"
-                    leftIcon={<Icon as={RiPencilLine} />}
+                    colorScheme="purple"
+                    leftIcon={<Icon as={RiPencilLine} fontSize="16" />}
+                  >
+                    Editar
+                  </Button>
+                </Td>
+              </Tr>
+              <Tr>
+                <Td px="6">
+                  <Checkbox colorScheme="pink" />
+                </Td>
+                <Td>
+                  <Box>
+                    <Text fontWeight="bold">Lafaiete do Vale</Text>
+                    <Text fontSize="sm" color="gray.300">
+                      lafa.vale@gmail.com
+                    </Text>
+                  </Box>
+                </Td>
+                <Td>11 de Abril, 2023</Td>
+                <Td>
+                  <Button
+                    as="a"
+                    size="sm"
+                    fontSize="sm"
+                    colorScheme="purple"
+                    leftIcon={<Icon as={RiPencilLine} fontSize="16" />}
+                  >
+                    Editar
+                  </Button>
+                </Td>
+              </Tr>
+              <Tr>
+                <Td px="6">
+                  <Checkbox colorScheme="pink" />
+                </Td>
+                <Td>
+                  <Box>
+                    <Text fontWeight="bold">Lafaiete do Vale</Text>
+                    <Text fontSize="sm" color="gray.300">
+                      lafa.vale@gmail.com
+                    </Text>
+                  </Box>
+                </Td>
+                <Td>11 de Abril, 2023</Td>
+                <Td>
+                  <Button
+                    as="a"
+                    size="sm"
+                    fontSize="sm"
+                    colorScheme="purple"
+                    leftIcon={<Icon as={RiPencilLine} fontSize="16" />}
                   >
                     Editar
                   </Button>
