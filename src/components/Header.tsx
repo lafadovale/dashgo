@@ -1,13 +1,9 @@
-import { Avatar, Box, Flex, HStack, Icon, Input, Text } from "@chakra-ui/react";
-import {
-  RiNotificationLine,
-  RiSearchLine,
-  RiUserAddLine,
-} from "react-icons/ri";
-import { Profile } from "./Header/Profile";
-import { NotificationsNav } from "./Header/NotificationsNav";
-import { SearchBox } from "./Header/SearchBox";
+import { Flex } from "@chakra-ui/react";
+
 import { Logo } from "./Header/Logo";
+import { SearchBox } from "./Header/SearchBox";
+import { NotificationsNav } from "./Header/NotificationsNav";
+import { Profile } from "./Header/Profile";
 
 export function Header() {
   return (
