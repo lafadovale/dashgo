@@ -38,7 +38,7 @@ export function PaginationItem({
       _hover={{
         bg: "gray.500",
       }}
-      onClick={() => onPageChange(number)}
+      onClick={() => onPageChange(page)}
     >
       {page}
     </Button>
